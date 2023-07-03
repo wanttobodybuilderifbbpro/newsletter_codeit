@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+/* ▲ 모든 요소에 다 적용한다는 뜻이 "*" */
 
 body {
   background-color: #f4f1ff;
@@ -16,7 +17,6 @@ body {
   margin: 32px auto;
   padding: 32px 19px 40px;
   width: 400px;
-  box-sizing: border-box; /* border기준으로 너비를 지정할 수 있음 */
 }
 
 .terms-title {
